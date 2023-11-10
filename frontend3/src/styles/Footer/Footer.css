@@ -1,0 +1,17 @@
+.Footer {
+    background-color: #E9EAF2;
+    padding: 3rem 8rem;
+    margin-top: 8rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:1300px) {
+    .footer-main {
+        flex-direction: column;
+    }
+}

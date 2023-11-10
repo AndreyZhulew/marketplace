@@ -1,0 +1,38 @@
+.Basket-cart-header {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+    column-gap: 30px;
+
+    padding: 22px 0;
+    background-color: #E9EAF2;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    @media (max-width: 600px) {
+        height: 1px;
+        padding: 0;
+        & > * {
+            display: none;
+        }
+    }
+}
+
+.Basket-cart-header__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    grid-column-start: 2;
+}
+
+.Basket-cart-header__count,
+.Basket-cart-header__cost {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}

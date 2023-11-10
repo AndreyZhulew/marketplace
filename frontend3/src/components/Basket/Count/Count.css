@@ -1,0 +1,51 @@
+.Basket-count {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.Basket-count__box {
+    width: 40px;
+    height: 30px;
+    background: #EAEFF2;
+    border-radius: 3px;
+}
+
+.Basket-count__input {
+    font-family: 'Montserrat', sans-serif;
+	max-width: 100%;
+    padding-top: 4px;
+	background-color: transparent;
+
+    text-align: center;
+    font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+    border: none;
+}
+
+.Basket-count__input::-webkit-inner-spin-button,
+.Basket-count__input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.Basket-count__controls {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.Basket-count__controls img {
+    display: block;
+}
+
+.Basket-count__up ,
+.Basket-count__down  {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.Basket-count__up {
+    margin-bottom: 5px;
+}

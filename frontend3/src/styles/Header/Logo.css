@@ -1,0 +1,47 @@
+.Logo {
+    cursor: pointer;
+    outline: none;
+}
+.logo-link{
+    outline: none;
+}
+
+
+.Logo span {
+    color: var(--Accent, #3AB4FF);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+}
+
+.Logo h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+}
+
+@media (min-width: 1441px) { 
+    .Logo span {
+        font-size: 2.25rem;
+    }
+    .Logo h1 { 
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 1205px){ 
+    .Logo span {
+        font-size: 2rem;
+    }
+    .Logo h1 { 
+        font-size: 2rem;
+    }
+    .Logo {
+        margin-left: 0rem;
+    }
+}

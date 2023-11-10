@@ -1,0 +1,25 @@
+.Head_phone_first {
+    width: 100%;
+    z-index: 99;
+}
+
+.anim-pulse circle {
+    animation-name: pulsate;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.15);
+    }
+} */
+
+
+@media (max-width: 1500px) {
+
+}

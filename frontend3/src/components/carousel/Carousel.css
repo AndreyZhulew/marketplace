@@ -1,0 +1,49 @@
+.main-container {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.window {
+    border-radius: 20px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: filter 300ms ease;
+}
+
+.window:hover {
+    filter: brightness(80%);
+}
+
+.all-pages-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+
+    transition: transform 300ms ease;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.slider_buttons {
+    cursor: pointer;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.slider_buttons img:first-of-type {
+    margin-right: 1.5rem;
+}
+
+.slider_buttons img {
+    transition: transform 300ms ease;
+}
+
+.slider_buttons img:hover {
+    transform: scale(1.1);
+}

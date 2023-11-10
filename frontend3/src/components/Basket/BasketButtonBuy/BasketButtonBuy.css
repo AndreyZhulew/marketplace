@@ -1,0 +1,31 @@
+.BasketButtonBuy {
+    margin-top: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BasketButtonBuy button {
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 0.625rem;
+    background: #E9EAF2;
+    transition: all 250ms ease;
+    color: black;
+
+    cursor: pointer;
+}
+
+.BasketButtonBuy a{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;   
+}
+
+.BasketButtonBuy button:hover {
+    background: #3AB4FF;
+    color: #fff;
+}

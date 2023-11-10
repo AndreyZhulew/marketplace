@@ -1,0 +1,40 @@
+.MobileNavigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: #E9EAF2;
+    width: 100%;
+    height: 60px;
+    z-index: 99999;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.MobileNavigation img {
+    width: 35px;
+    cursor: pointer;
+}
+
+@media (min-width:320px) and (max-width: 800px){
+    .MobileNavigation {
+        padding: 1.5rem 0;
+    }
+    .MobileNavigation img {
+        width: 35px;
+    }
+}
+
+@media (min-width:801px) and (max-width:980px) {
+    .MobileNavigation {
+        padding: 1.5rem 0;
+    }
+    .MobileNavigation img {
+        width: 40px;
+    }
+}
+

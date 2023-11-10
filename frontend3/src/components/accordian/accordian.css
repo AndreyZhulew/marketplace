@@ -1,0 +1,51 @@
+.accordian_box {
+    padding: 1rem 2rem;
+    border:  1.5px solid black;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.ques-icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-div {
+    margin-top: 0.5rem;
+    font-size: 1.9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.ques-ans-div {
+    color: black;
+}
+
+.ques-ans-div h3{
+    justify-content: center;
+    align-items: center;
+
+    /* Main */
+    font-family: Montserrat;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+}
+
+.ques-ans-div p {
+    color: #000;
+
+    /* Main */
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03125rem;
+}

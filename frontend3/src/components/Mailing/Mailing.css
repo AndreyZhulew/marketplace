@@ -1,0 +1,149 @@
+.Mailing {
+    padding: 8rem 0 8rem 0;
+    background-color: #fff;
+}
+
+.mailing-form {
+    border-radius: 3.75rem;
+    background: #E9EAF2;
+    padding: 5rem 15rem;
+    
+    position: relative;
+    flex-direction: column;
+}
+
+.mailing-form h3 {
+    display: flex;
+    justify-content: center;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 3.5rem */
+    letter-spacing: 0.03125rem;
+}
+
+.mailing_first_info {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 1.5rem */
+    letter-spacing: 0.03125rem;
+    margin-bottom: 2rem;
+}
+
+.mailing-form input {
+    padding: 1.25rem 2.6rem;
+    justify-content: center;
+
+    border-radius: 6.25rem;
+    width: 30rem;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+    background: #FFF;
+
+    color: #00000099;
+    font-family: Gilroy;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1.25rem */
+    letter-spacing: 0.03125rem;
+}
+
+.mailing-form input:focus {
+    color: #000;
+}
+
+.mailing-form button {
+
+    border-radius: 6.25rem;
+    background: #3AB4FF;
+    width: 10.5rem;
+    height: 3.125rem;
+    border: 1px solid silver;
+    margin-left: -11rem;
+    transition: transform 500ms ease;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1.25rem */
+    letter-spacing: 0.03125rem;
+    cursor: pointer;
+}
+
+.mailing-form button:hover {
+    transform: scale(1.05);
+}
+
+.mailing-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailing_second_info {
+    justify-content: center;
+    margin-top: 2rem;
+
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 0.9625rem */
+}
+
+.mailing_second_info span {
+    color: var(--Accent, #3AB4FF);
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.mailing_second_info span a {
+    cursor: pointer;
+}
+
+@media (max-width: 1780px){ 
+    .mailing_first_info {
+        font-size: 1.2rem;
+    }
+    .Mailing {
+        padding: 6rem 0 6rem 0;
+    }
+    .mailing-form {
+        padding: 4rem 9rem;
+    }
+}
+
+@media (max-width: 1340px){ 
+    .mailing_first_info {
+        font-size: 1rem;
+    }
+    .mailing-form {
+        padding: 3rem 6rem;
+    }
+    .mailing_second_info {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1024px){ 
+    .Mailing {
+        display: none;
+    }
+}

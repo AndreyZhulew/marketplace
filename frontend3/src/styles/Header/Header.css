@@ -1,0 +1,45 @@
+.HeaderDiv {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.Header {
+    background-color: #E9EAF2;
+    padding: 1.5rem 4rem;
+}
+.header-desktop {
+    display: block;
+}
+.header-mobile {
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .header-desktop,
+    .HeaderDiv {
+        display: flex;
+    }
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .header-desktop,
+    .HeaderDiv {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Header {
+        padding: 1.5rem 3rem;
+    }
+}
+
+
+

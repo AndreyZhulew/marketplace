@@ -1,0 +1,14 @@
+.faq-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000;
+
+    /* H2 */
+    font-family: Montserrat;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

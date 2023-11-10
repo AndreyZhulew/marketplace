@@ -1,0 +1,151 @@
+
+.Header_navbar {
+    display: flex;
+}
+
+.Header_navbar a {
+    display: flex;
+}
+
+.Header_navbar a {
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.Header_navbar a:hover {
+    transform: translateY(-0.3rem);
+}
+
+.Header_navbar a:not(:first-of-type) {
+    margin-left: 3rem;
+}
+
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 999;
+    display: none;
+}
+
+.menu {
+    position: absolute;
+}
+
+.coverShow {
+    display: block;
+}
+
+.mobileMenuBox {
+    z-index: 9999;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+
+    width: 400px;
+    height: 100vh;
+
+    padding: 120px 50px 24px 14px;
+    background: #E9EAF2;
+
+    box-shadow: 4px 4px 30px 5px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.25s;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mobileMenuBoxShow {
+    visibility: visible;
+    left: 0;
+}
+
+.menuHeader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.closeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.backButton {
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.backButton img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.closeButton img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.catalog-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: none;
+    border: none;
+    
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0;
+    color: black;
+    transition: 200ms ease;
+}
+
+.catalog-item img {
+    width: 7px;
+}
+
+.catalog-item:hover {
+    color: #3AB4FF;
+}
+
+.level {
+    display: flex;
+    transition: transform 0.2s;
+}
+
+.level > div {
+    min-width: calc(100% + 24px);
+}
+
+@media (max-width: 1200px) { 
+    .Header_navbar a:not(:first-of-type) {
+        margin-left: 2.5rem;
+    }
+}

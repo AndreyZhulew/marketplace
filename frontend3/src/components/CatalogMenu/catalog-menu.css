@@ -1,0 +1,117 @@
+.catalog_menu_main_container {
+    opacity: 0;
+    width: 100%;
+    max-width: 630px;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    transition: left 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    background: #efefef;
+    color: #80bdff;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.catalog_menu_main_container.visible {
+    opacity: 1;
+
+    pointer-events: all;
+    left: 0;
+}
+
+.category_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.closeCatalogMenu {
+    position: absolute;
+    cursor: pointer;
+    top: 2rem;
+    right: 2rem;
+    width: 30px;
+}
+
+.catalog_menu_main > button {
+    border: none;
+}
+
+.catalog_menu_main > .category_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+
+    padding: 0.5rem 2rem;
+    position: relative;
+    transition: all 250ms ease;
+}
+
+.catalog_menu_main > .category_title:hover,
+.catalog_menu_main > .category_title.active {
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    background: #3AB4FF;
+}
+
+.catalog_menu_children {
+    margin-left: 1rem;
+    margin-top: 6.1rem;
+}
+
+.catalog_menu_children > div > .category_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+
+    padding: 0.5rem 2rem;
+    position: relative;
+    transition: all 250ms ease;
+}
+
+.catalog_menu_children > div > .category_title:hover,
+.catalog_menu_children > div > .category_title.active {
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    background: #3AB4FF;
+}
+
+.catalog_menu_sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms ease;
+}
+
+.catalog_menu_sub:hover {
+    color:#3AB4FF;
+}

@@ -1,0 +1,18 @@
+.Footer_links ul {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.Footer_links ul li {
+    list-style-type: none;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.Footer_links ul li:not(:last-of-type) {
+    margin-right: 3.1rem;
+}
+
+.Footer_links ul li:hover {
+    transform: translateY(-5px);
+}

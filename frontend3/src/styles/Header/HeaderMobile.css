@@ -1,0 +1,10 @@
+.mobileSeach{
+    display: flex;
+    align-items: center;
+}
+
+.mobileSeach img {
+    position: absolute;
+    right: 3rem;
+    width: 24px;
+}

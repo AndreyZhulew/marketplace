@@ -1,0 +1,43 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container-main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.form-container-main h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.form-container-main input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    border: 1px solid;
+    border-color: silver;
+    border-radius: 10px;
+}
+
+.form-container-main input:active {
+    border-color: #3AB4FF;
+}
+
+.form-container-main-submit {
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+    transition: all 250ms ease;
+}
+
+.form-container-main-submit:hover {
+    background: #3AB4FF;
+    color: #fff;
+}
